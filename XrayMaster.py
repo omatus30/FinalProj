@@ -8,7 +8,7 @@
 # Then decompress them, and make sure they're in a directory called <code>/raw_reports</code> and <code>/xrays</code> respectively... (one of them decompresses to its own directory, so you need to rename that directory raw_reports instead of encgn or whatever).
 # 
 
-# In[10]:
+# In[50]:
 
 
 import torch
@@ -42,7 +42,7 @@ import numpy as np
 # 
 # Now the data is stored in a numpy array in <code>../data/dataset.npy</code> 
 
-# In[11]:
+# In[51]:
 
 
 #X, Y = utils.load_X_and_Y()
@@ -77,7 +77,7 @@ class Data_SET(Dataset):
             #print('in loop',fn)
             self.filenames.append(fn) # (filename, label) pair
             i +=1
-            if i == 300:
+            if i == 500:
                 break
 
         # if preload dataset into memory
@@ -119,7 +119,7 @@ class Data_SET(Dataset):
         if self.transform is not None:
             image = self.transform(image)
         # return image and label
-        return image[:,200:300,200:300]
+        return image[:,100:300,100:300]
 
     def __len__(self):
         """
@@ -132,7 +132,7 @@ trainset = Data_SET(
     preload=False, transform=transforms.ToTensor(),
 )
 # Use the torch dataloader to iterate through the dataset
-trainset_loader = DataLoader(trainset, batch_size=20, shuffle=True, num_workers=24)
+trainset_loader = DataLoader(trainset, batch_size=20, shuffle=True, num_workers=32)
 
 # load the testset
 # testset = Data_SET(
@@ -148,7 +148,7 @@ print(len(trainset))
 
 
 
-# In[12]:
+# In[52]:
 
 
 def imshow_noax(img, normalize=True):
@@ -176,7 +176,7 @@ def imshow(img):
 #print(' '.join('%5s' % labels[j] for j in range(5)))
 
 
-# In[13]:
+# In[53]:
 
 
 NUM_TRAIN = 100
@@ -218,7 +218,7 @@ images = {}
 # 
 # The global variables `dtype` and `device` will control the data types throughout this assignment. 
 
-# In[14]:
+# In[26]:
 
 
 USE_GPU = True
@@ -236,7 +236,7 @@ else:
 print_every = 5
 
 
-# In[15]:
+# In[27]:
 
 
 def flatten(x):
@@ -254,7 +254,7 @@ def test_flatten():
 # 
 # This version is slightly different from the one in part II. You don't manually pass in the parameters anymore.
 
-# In[16]:
+# In[28]:
 
 
 def check_accuracy_part34(loader, model):  
@@ -290,7 +290,7 @@ def check_accuracy_part34(loader, model):
 # 
 # Again, you don't need to tune any hyperparameters here, but you shoud achieve above 40% accuracy after one epoch of training.
 
-# In[17]:
+# In[29]:
 
 
 def train_part34(model, optimizer, epochs=5):
@@ -357,7 +357,7 @@ def train_part34(model, optimizer, epochs=5):
 
 # # Part V. CIFAR-10 open-ended challenge
 
-# In[18]:
+# In[30]:
 
 
 ################################################################################
@@ -622,24 +622,21 @@ train(model,2500)
 torch.save(model, 'xraymodelV2.pt')
 
 
-# In[ ]:
+# In[48]:
 
 
+#model = torch.load('xraymodelV2.pt')
 #z = torch.zeros(20,3,100,100)
-#i = 0
 #for k in range(0,20):
 #    y = trainset.__getitem__(k)
     #print(y.shape)
 #    z[k] = y
-#    i +=1
 #originals = z
 #originals = originals.to(device=device, dtype=dtype)
 #reconstruction = model(originals)
 
 
-# In[ ]:
-
-
+# In[49]:
 
 
 #for i in range(20):
@@ -648,13 +645,13 @@ torch.save(model, 'xraymodelV2.pt')
     #org = np.maximum(org,1)
     #org = np.minimum(org,0)
 #    plt.subplot(1, 2, 1)
-#    imshow_noax(org, normalize=True)
+#    imshow_noax(org, normalize=False)
 #    plt.title('Original image')
 #    plt.subplot(1, 2, 2)
 #    rec = reconstruction[i].cpu().detach().numpy().transpose(1,2,0)
     #rec = np.maximum(rec,1)
     #rec = np.minimum(rec,0)
-#    imshow_noax(rec, normalize=True)
+#    imshow_noax(rec, normalize=False)
 #    plt.title('Reconstructed image')
 #    plt.show()
 
