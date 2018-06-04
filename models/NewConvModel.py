@@ -39,7 +39,7 @@ class save_output(nn.Module):
             imshow_noax(torchvision.utils.make_grid(img))
         return x
     
-class OriginalConvNet(nn.Module):
+class NewConvNet(nn.Module):
     def __init__(self,channels,size,device):
         super().__init__()
         self.device = device
@@ -55,7 +55,7 @@ class OriginalConvNet(nn.Module):
         self.batchnorm_3_compress = nn.BatchNorm2d(size)
         self.relu_3_compress = nn.ReLU()
         
-        self.conv_4_compress = nn.Conv2d(size, size, kernel_size=3,stride=1,padding=1,bias=True)
+        self.conv_4_compress = nn.Conv2d(size, size, kernel_size=3,stride=2,padding=1,bias=True)
         self.batchnorm_4_compress = nn.BatchNorm2d(size)
         self.relu_4_compress = nn.ReLU()
         
@@ -67,11 +67,11 @@ class OriginalConvNet(nn.Module):
         self.batchnorm_6_compress = nn.BatchNorm2d(size)
         self.relu_6_compress = nn.ReLU()
 
-        self.conv_downsize_compress = nn.Conv2d(size, size, kernel_size=3,stride=2,padding=1,bias=True)
+        self.conv_downsize_compress = nn.Conv2d(size, size, kernel_size=3,stride=1,padding=1,bias=True)
         self.batchnorm_downsize_compress = nn.BatchNorm2d(size)
         self.relu_downsize_compress = nn.ReLU()
         
-        self.conv_7_compress = nn.Conv2d(size, size, kernel_size=3,stride=1,padding=1,bias=True)
+        self.conv_7_compress = nn.Conv2d(size, size, kernel_size=3,stride=2,padding=1,bias=True)
         self.batchnorm_7_compress = nn.BatchNorm2d(size)
         self.relu_7_compress = nn.ReLU()
         
@@ -113,6 +113,8 @@ class OriginalConvNet(nn.Module):
         self.conv_5_decompress = nn.Conv2d(size, size, kernel_size=3,stride=1,padding=1,bias=True)
         self.batchnorm_5_decompress = nn.BatchNorm2d(size)
         self.relu_5_decompress = nn.ReLU()
+        
+        self.upscaling2 = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
         
         self.conv_6_decompress = nn.Conv2d(size, size, kernel_size=3,stride=1,padding=1,bias=True)
         self.batchnorm_6_decompress = nn.BatchNorm2d(size)
@@ -182,7 +184,7 @@ class OriginalConvNet(nn.Module):
             
             self.conv_compress_final,
         
-            self.upscaling,
+            self.upscaling2,
             
             self.conv_1_decompress,
             self.relu_1_decompress,
@@ -202,6 +204,8 @@ class OriginalConvNet(nn.Module):
             self.conv_5_decompress,
             self.batchnorm_5_decompress,
             self.relu_5_decompress,
+            
+            self.upscaling2,
             
             self.conv_6_decompress,
             self.batchnorm_6_decompress,
