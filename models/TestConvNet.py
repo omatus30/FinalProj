@@ -39,10 +39,9 @@ class save_output(nn.Module):
             imshow_noax(torchvision.utils.make_grid(img))
         return x
     
-class OriginalConvNet(nn.Module): #TODO: problem here
-    def __init__(self,channels,size,device):
+class TestConvNet(nn.Module): #TODO: problem here
+    def __init__(self,channels,size):
         super().__init__()
-        self.device = device
 
         self.conv_1_compress = nn.Conv2d(channels, size, kernel_size=3,stride=1,padding=1,bias=True)
         self.relu_1_compress = nn.ReLU()
@@ -222,7 +221,7 @@ class OriginalConvNet(nn.Module): #TODO: problem here
             self.conv_10_decompress
 
             
-        ).to(self.device)
+        )
         scores = model(x)
         return scores
     
