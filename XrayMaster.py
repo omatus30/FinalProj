@@ -29,7 +29,7 @@ from models.TestConvNet import TestConvNet
 
 
 import numpy as np
-
+plt.switch_backend('agg')
 
 # In[2]:
 
@@ -133,9 +133,9 @@ print(len(testset))
 
 # In[3]:
 
-
+"""
 def imshow_noax(img, normalize=True):
-    """ Tiny helper to show images as uint8 and remove axis labels """
+    #Tiny helper to show images as uint8 and remove axis labels 
     img = img.numpy()
     
     if normalize:
@@ -158,7 +158,7 @@ images = dataiter.next()
 
 # show images
 imshow(torchvision.utils.make_grid(images))
-
+"""
 
 # In[4]:
 
