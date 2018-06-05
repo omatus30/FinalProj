@@ -71,7 +71,7 @@ class XrayLoader(Dataset):
             image = Image.open(image_fn)
         if self.transform is not None:
             image = self.transform(image)
-        return image[:,200:232,200:232] 
+        return image[:,100:300,100:300] 
 
     def __len__(self):
         """
