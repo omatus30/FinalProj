@@ -1,0 +1,19 @@
+500
+Iteration 0, loss = 0.0282
+
+Iteration 5, loss = 0.0173
+
+Iteration 10, loss = 0.0107
+
+Iteration 15, loss = 0.0130
+
+Iteration 20, loss = 0.0135
+
+Iteration 25, loss = 0.0081
+
+Iteration 30, loss = 0.0100
+
+Iteration 35, loss = 0.0073
+
+Iteration 40, loss = 0.0111
+
