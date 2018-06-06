@@ -294,13 +294,13 @@ def save_compressed(self,input,output):
 
 channels = 3
 size = 32
-model = NewConvNet(channels,size,device)
+model = OriginalConvNet(channels,size,device)
 #hook = model.conv_compress_final.register_forward_hook(save_compressed)
 #hook.remove()
 
 optimizer = optim.Adam(model.parameters(), lr=5e-3) 
-train(model,1700)
-torch.save(model.state_dict(), 'new_museum.pt')
+train(model,2500)
+torch.save(model.state_dict(), 'old_museum.pt')
 
 
 # In[ ]:
