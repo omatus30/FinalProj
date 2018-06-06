@@ -63,7 +63,7 @@ class Data_SET(Dataset):
         self.transform = transform
 
         # read filenames
-        filenames = glob.glob(osp.join(root, '*.jpg'))
+        filenames = glob.glob(osp.join(root, '*.png'))
         i = 0
         for fn in filenames:
             #print('in loop',fn)
@@ -120,18 +120,18 @@ class Data_SET(Dataset):
         return self.len
     
 trainset = Data_SET(
-    root='../blood_cells_data/dataset-master/JPEGImages',
+    root='../chest_xray_code/data/xrays',
     preload=False, transform=transforms.ToTensor(),
-    end = 300
+    end = 500
 )
 # Use the torch dataloader to iterate through the dataset
 trainset_loader = DataLoader(trainset, batch_size=20, shuffle=True, num_workers=24)
 
 # load the testset
 testset = Data_SET(
-     root='../blood_cells_data/dataset-master/JPEGImages',
+     root='../chest_xray_code/data/xrays',
      preload=False, transform=transforms.ToTensor(),
-     end = 360
+     end = 500
  )
 #testset = trainset
 # Use the torch dataloader to iterate through the dataset
@@ -672,7 +672,7 @@ def train(model, epoch, log_interval=100):
             loss.backward()
             optimizer.step()
         if ep % print_every == 0:
-            torch.save(model, 'blood16.pt')
+            torch.save(model, 'xray16.pt')
             print('Iteration %d, loss = %.4f' % (ep, loss.item()))
             print()
 

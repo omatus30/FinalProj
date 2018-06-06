@@ -1,0 +1,10 @@
+500
+500
+Iteration 0, loss = 0.0141
+
+500
+500
+Iteration 0, loss = 0.0145
+
+Iteration 5, loss = 0.0064
+
