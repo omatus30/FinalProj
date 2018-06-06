@@ -294,13 +294,13 @@ def save_compressed(self,input,output):
 
 channels = 3
 size = 32
-model = OriginalConvNet(channels,size,device)
+model = NewConvNet(channels,size,device)
 #hook = model.conv_compress_final.register_forward_hook(save_compressed)
 #hook.remove()
 
 optimizer = optim.Adam(model.parameters(), lr=5e-3) 
-train(model,2500)
-torch.save(model, 'old_museum.pt')
+train(model,1700)
+torch.save(model.state_dict(), 'new_museum.pt')
 
 
 # In[ ]:
@@ -369,6 +369,8 @@ for data in trainset_loader:
         reconstruction = model(data)
         i+=1
 """
+
+"""
 for i in range(20):
     plt.figure()
     org = images[0][i]
@@ -386,7 +388,7 @@ for i in range(20):
     image_str = str(i) + ".png"
     plt.savefig(image_str)
     plt.show()
-
+"""
 
 # In[ ]:
 

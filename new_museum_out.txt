@@ -701,3 +701,12 @@ Iteration 1690, loss = 0.0022
 
 Iteration 1695, loss = 0.0020
 
+500
+Iteration 0, loss = 0.0159
+
+500
+Iteration 0, loss = 0.0244
+
+500
+Iteration 0, loss = 0.0335
+
