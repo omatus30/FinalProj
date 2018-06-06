@@ -27,7 +27,7 @@ import numpy as np
 
 
 
-class MuseumLoader(Dataset):
+class MuseumLoader256(Dataset):
     """
     A customized data loader for MNIST.
     """
@@ -53,7 +53,7 @@ class MuseumLoader(Dataset):
         
         
         #randomly select filenames for more even distribution
-        sample_size = 500
+        sample_size = 40
         #import pdb; pdb.set_trace();
         file_samples =  random.sample(filenames, sample_size)
         

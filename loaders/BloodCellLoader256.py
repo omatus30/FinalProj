@@ -38,7 +38,7 @@ class BloodCellLoader256(Dataset):
                  root,
                  transform=None,
                  preload=False,
-                extension='jpg'):
+                extension='jpeg'):
         """ Intialize the MNIST dataset
         
         Args:
@@ -53,7 +53,7 @@ class BloodCellLoader256(Dataset):
         self.transform = transform
 
         # read filenames
-        filenames = glob.glob(osp.join(root, '*.'+extension))
+        filenames = glob.glob(osp.join(root, '*.jpeg'))
         i = 0
         for fn in filenames:
             #print('in loop',fn)

@@ -53,7 +53,7 @@ class MuseumLoader(Dataset):
         
         
         #randomly select filenames for more even distribution
-        sample_size = 500
+        sample_size = 40
         #import pdb; pdb.set_trace();
         file_samples =  random.sample(filenames, sample_size)
         
@@ -85,7 +85,7 @@ class MuseumLoader(Dataset):
     def __getitem__(self, index):
         """ Get a sample from the dataset
         """
-                
+        
         if self.images is not None:
             # If dataset is preloaded
             image = self.images[index]
@@ -106,7 +106,7 @@ class MuseumLoader(Dataset):
             image = self.transform(image)
         # return image and label
 
-                
+       
         return image[:,:200,:200]
 
     def __len__(self):

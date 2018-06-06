@@ -52,7 +52,7 @@ class BloodCellLoader(Dataset):
         self.transform = transform
 
         # read filenames
-        filenames = glob.glob(osp.join(root, '*.jpg'))
+        filenames = glob.glob(osp.join(root, '*.jpeg'))
         i = 0
         for fn in filenames:
             #print('in loop',fn)
@@ -98,7 +98,7 @@ class BloodCellLoader(Dataset):
         if self.transform is not None:
             image = self.transform(image)
         # return image and label
-        return image[:,100:300,100:300]
+        return image[:,:200,:200]
 
     def __len__(self):
         """
