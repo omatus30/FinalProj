@@ -17,3 +17,665 @@ Iteration 35, loss = 0.0073
 
 Iteration 40, loss = 0.0111
 
+Iteration 45, loss = 0.0093
+
+Iteration 50, loss = 0.0062
+
+Iteration 55, loss = 0.0094
+
+Iteration 60, loss = 0.0093
+
+Iteration 65, loss = 0.0071
+
+Iteration 70, loss = 0.0086
+
+Iteration 75, loss = 0.0063
+
+Iteration 80, loss = 0.0070
+
+Iteration 85, loss = 0.0052
+
+Iteration 90, loss = 0.0065
+
+Iteration 95, loss = 0.0054
+
+Iteration 100, loss = 0.0060
+
+Iteration 105, loss = 0.0045
+
+Iteration 110, loss = 0.0079
+
+Iteration 115, loss = 0.0086
+
+Iteration 120, loss = 0.0066
+
+Iteration 125, loss = 0.0043
+
+Iteration 130, loss = 0.0071
+
+Iteration 135, loss = 0.0047
+
+Iteration 140, loss = 0.0041
+
+Iteration 145, loss = 0.0056
+
+Iteration 150, loss = 0.0040
+
+Iteration 155, loss = 0.0045
+
+Iteration 160, loss = 0.0092
+
+Iteration 165, loss = 0.0037
+
+Iteration 170, loss = 0.0050
+
+Iteration 175, loss = 0.0038
+
+Iteration 180, loss = 0.0059
+
+Iteration 185, loss = 0.0049
+
+Iteration 190, loss = 0.0055
+
+Iteration 195, loss = 0.0039
+
+Iteration 200, loss = 0.0034
+
+Iteration 205, loss = 0.0039
+
+Iteration 210, loss = 0.0039
+
+Iteration 215, loss = 0.0043
+
+Iteration 220, loss = 0.0034
+
+Iteration 225, loss = 0.0031
+
+Iteration 230, loss = 0.0043
+
+Iteration 235, loss = 0.0026
+
+Iteration 240, loss = 0.0040
+
+Iteration 245, loss = 0.0037
+
+Iteration 250, loss = 0.0040
+
+Iteration 255, loss = 0.0040
+
+Iteration 260, loss = 0.0033
+
+Iteration 265, loss = 0.0032
+
+Iteration 270, loss = 0.0036
+
+Iteration 275, loss = 0.0036
+
+Iteration 280, loss = 0.0039
+
+Iteration 285, loss = 0.0034
+
+Iteration 290, loss = 0.0039
+
+Iteration 295, loss = 0.0043
+
+Iteration 300, loss = 0.0036
+
+Iteration 305, loss = 0.0033
+
+Iteration 310, loss = 0.0023
+
+Iteration 315, loss = 0.0023
+
+Iteration 320, loss = 0.0058
+
+Iteration 325, loss = 0.0051
+
+Iteration 330, loss = 0.0047
+
+Iteration 335, loss = 0.0036
+
+Iteration 340, loss = 0.0032
+
+Iteration 345, loss = 0.0026
+
+Iteration 350, loss = 0.0041
+
+Iteration 355, loss = 0.0030
+
+Iteration 360, loss = 0.0081
+
+Iteration 365, loss = 0.0035
+
+Iteration 370, loss = 0.0032
+
+Iteration 375, loss = 0.0023
+
+Iteration 380, loss = 0.0039
+
+Iteration 385, loss = 0.0036
+
+Iteration 390, loss = 0.0031
+
+Iteration 395, loss = 0.0028
+
+Iteration 400, loss = 0.0030
+
+Iteration 405, loss = 0.0025
+
+Iteration 410, loss = 0.0028
+
+Iteration 415, loss = 0.0043
+
+Iteration 420, loss = 0.0034
+
+Iteration 425, loss = 0.0025
+
+Iteration 430, loss = 0.0032
+
+Iteration 435, loss = 0.0036
+
+Iteration 440, loss = 0.0022
+
+Iteration 445, loss = 0.0022
+
+Iteration 450, loss = 0.0036
+
+Iteration 455, loss = 0.0034
+
+Iteration 460, loss = 0.0036
+
+Iteration 465, loss = 0.0036
+
+Iteration 470, loss = 0.0031
+
+Iteration 475, loss = 0.0031
+
+Iteration 480, loss = 0.0023
+
+Iteration 485, loss = 0.0028
+
+Iteration 490, loss = 0.0025
+
+Iteration 495, loss = 0.0034
+
+Iteration 500, loss = 0.0030
+
+Iteration 505, loss = 0.0035
+
+Iteration 510, loss = 0.0038
+
+Iteration 515, loss = 0.0032
+
+Iteration 520, loss = 0.0022
+
+Iteration 525, loss = 0.0025
+
+Iteration 530, loss = 0.0027
+
+Iteration 535, loss = 0.0020
+
+Iteration 540, loss = 0.0026
+
+Iteration 545, loss = 0.0024
+
+Iteration 550, loss = 0.0032
+
+Iteration 555, loss = 0.0020
+
+Iteration 560, loss = 0.0031
+
+Iteration 565, loss = 0.0043
+
+Iteration 570, loss = 0.0017
+
+Iteration 575, loss = 0.0032
+
+Iteration 580, loss = 0.0026
+
+Iteration 585, loss = 0.0015
+
+Iteration 590, loss = 0.0024
+
+Iteration 595, loss = 0.0034
+
+Iteration 600, loss = 0.0029
+
+Iteration 605, loss = 0.0030
+
+Iteration 610, loss = 0.0024
+
+Iteration 615, loss = 0.0019
+
+Iteration 620, loss = 0.0016
+
+Iteration 625, loss = 0.0028
+
+Iteration 630, loss = 0.0025
+
+Iteration 635, loss = 0.0027
+
+Iteration 640, loss = 0.0027
+
+Iteration 645, loss = 0.0028
+
+Iteration 650, loss = 0.0029
+
+Iteration 655, loss = 0.0015
+
+Iteration 660, loss = 0.0026
+
+Iteration 665, loss = 0.0020
+
+Iteration 670, loss = 0.0023
+
+Iteration 675, loss = 0.0032
+
+Iteration 680, loss = 0.0024
+
+Iteration 685, loss = 0.0020
+
+Iteration 690, loss = 0.0027
+
+Iteration 695, loss = 0.0027
+
+Iteration 700, loss = 0.0025
+
+Iteration 705, loss = 0.0021
+
+Iteration 710, loss = 0.0063
+
+Iteration 715, loss = 0.0043
+
+Iteration 720, loss = 0.0037
+
+Iteration 725, loss = 0.0030
+
+Iteration 730, loss = 0.0035
+
+Iteration 735, loss = 0.0034
+
+Iteration 740, loss = 0.0029
+
+Iteration 745, loss = 0.0031
+
+Iteration 750, loss = 0.0029
+
+Iteration 755, loss = 0.0033
+
+Iteration 760, loss = 0.0018
+
+Iteration 765, loss = 0.0028
+
+Iteration 770, loss = 0.0024
+
+Iteration 775, loss = 0.0019
+
+Iteration 780, loss = 0.0029
+
+Iteration 785, loss = 0.0029
+
+Iteration 790, loss = 0.0049
+
+Iteration 795, loss = 0.0029
+
+Iteration 800, loss = 0.0023
+
+Iteration 805, loss = 0.0018
+
+Iteration 810, loss = 0.0035
+
+Iteration 815, loss = 0.0021
+
+Iteration 820, loss = 0.0024
+
+Iteration 825, loss = 0.0028
+
+Iteration 830, loss = 0.0026
+
+Iteration 835, loss = 0.0023
+
+Iteration 840, loss = 0.0021
+
+Iteration 845, loss = 0.0019
+
+Iteration 850, loss = 0.0033
+
+Iteration 855, loss = 0.0032
+
+Iteration 860, loss = 0.0025
+
+Iteration 865, loss = 0.0025
+
+Iteration 870, loss = 0.0021
+
+Iteration 875, loss = 0.0036
+
+Iteration 880, loss = 0.0019
+
+Iteration 885, loss = 0.0021
+
+Iteration 890, loss = 0.0030
+
+Iteration 895, loss = 0.0023
+
+Iteration 900, loss = 0.0030
+
+Iteration 905, loss = 0.0020
+
+Iteration 910, loss = 0.0018
+
+Iteration 915, loss = 0.0029
+
+Iteration 920, loss = 0.0028
+
+Iteration 925, loss = 0.0026
+
+Iteration 930, loss = 0.0024
+
+Iteration 935, loss = 0.0018
+
+Iteration 940, loss = 0.0027
+
+Iteration 945, loss = 0.0027
+
+Iteration 950, loss = 0.0026
+
+Iteration 955, loss = 0.0022
+
+Iteration 960, loss = 0.0042
+
+Iteration 965, loss = 0.0021
+
+Iteration 970, loss = 0.0037
+
+Iteration 975, loss = 0.0024
+
+Iteration 980, loss = 0.0019
+
+Iteration 985, loss = 0.0025
+
+Iteration 990, loss = 0.0032
+
+Iteration 995, loss = 0.0017
+
+Iteration 1000, loss = 0.0031
+
+Iteration 1005, loss = 0.0019
+
+Iteration 1010, loss = 0.0017
+
+Iteration 1015, loss = 0.0018
+
+Iteration 1020, loss = 0.0021
+
+Iteration 1025, loss = 0.0019
+
+Iteration 1030, loss = 0.0018
+
+Iteration 1035, loss = 0.0017
+
+Iteration 1040, loss = 0.0033
+
+Iteration 1045, loss = 0.0024
+
+Iteration 1050, loss = 0.0023
+
+Iteration 1055, loss = 0.0020
+
+Iteration 1060, loss = 0.0016
+
+Iteration 1065, loss = 0.0019
+
+Iteration 1070, loss = 0.0023
+
+Iteration 1075, loss = 0.0022
+
+Iteration 1080, loss = 0.0023
+
+Iteration 1085, loss = 0.0024
+
+Iteration 1090, loss = 0.0016
+
+Iteration 1095, loss = 0.0027
+
+Iteration 1100, loss = 0.0023
+
+Iteration 1105, loss = 0.0022
+
+Iteration 1110, loss = 0.0027
+
+Iteration 1115, loss = 0.0024
+
+Iteration 1120, loss = 0.0032
+
+Iteration 1125, loss = 0.0030
+
+Iteration 1130, loss = 0.0026
+
+Iteration 1135, loss = 0.0031
+
+Iteration 1140, loss = 0.0029
+
+Iteration 1145, loss = 0.0031
+
+Iteration 1150, loss = 0.0015
+
+Iteration 1155, loss = 0.0021
+
+Iteration 1160, loss = 0.0032
+
+Iteration 1165, loss = 0.0018
+
+Iteration 1170, loss = 0.0015
+
+Iteration 1175, loss = 0.0016
+
+Iteration 1180, loss = 0.0030
+
+Iteration 1185, loss = 0.0013
+
+Iteration 1190, loss = 0.0018
+
+Iteration 1195, loss = 0.0015
+
+Iteration 1200, loss = 0.0017
+
+Iteration 1205, loss = 0.0047
+
+Iteration 1210, loss = 0.0025
+
+Iteration 1215, loss = 0.0023
+
+Iteration 1220, loss = 0.0025
+
+Iteration 1225, loss = 0.0023
+
+Iteration 1230, loss = 0.0023
+
+Iteration 1235, loss = 0.0022
+
+Iteration 1240, loss = 0.0027
+
+Iteration 1245, loss = 0.0026
+
+Iteration 1250, loss = 0.0023
+
+Iteration 1255, loss = 0.0018
+
+Iteration 1260, loss = 0.0021
+
+Iteration 1265, loss = 0.0017
+
+Iteration 1270, loss = 0.0019
+
+Iteration 1275, loss = 0.0061
+
+Iteration 1280, loss = 0.0039
+
+Iteration 1285, loss = 0.0036
+
+Iteration 1290, loss = 0.0019
+
+Iteration 1295, loss = 0.0023
+
+Iteration 1300, loss = 0.0028
+
+Iteration 1305, loss = 0.0027
+
+Iteration 1310, loss = 0.0023
+
+Iteration 1315, loss = 0.0028
+
+Iteration 1320, loss = 0.0026
+
+Iteration 1325, loss = 0.0024
+
+Iteration 1330, loss = 0.0014
+
+Iteration 1335, loss = 0.0019
+
+Iteration 1340, loss = 0.0027
+
+Iteration 1345, loss = 0.0022
+
+Iteration 1350, loss = 0.0046
+
+Iteration 1355, loss = 0.0024
+
+Iteration 1360, loss = 0.0019
+
+Iteration 1365, loss = 0.0017
+
+Iteration 1370, loss = 0.0027
+
+Iteration 1375, loss = 0.0028
+
+Iteration 1380, loss = 0.0022
+
+Iteration 1385, loss = 0.0022
+
+Iteration 1390, loss = 0.0024
+
+Iteration 1395, loss = 0.0027
+
+Iteration 1400, loss = 0.0018
+
+Iteration 1405, loss = 0.0013
+
+Iteration 1410, loss = 0.0020
+
+Iteration 1415, loss = 0.0023
+
+Iteration 1420, loss = 0.0019
+
+Iteration 1425, loss = 0.0023
+
+Iteration 1430, loss = 0.0020
+
+Iteration 1435, loss = 0.0024
+
+Iteration 1440, loss = 0.0022
+
+Iteration 1445, loss = 0.0022
+
+Iteration 1450, loss = 0.0019
+
+Iteration 1455, loss = 0.0024
+
+Iteration 1460, loss = 0.0024
+
+Iteration 1465, loss = 0.0027
+
+Iteration 1470, loss = 0.0014
+
+Iteration 1475, loss = 0.0020
+
+Iteration 1480, loss = 0.0025
+
+Iteration 1485, loss = 0.0017
+
+Iteration 1490, loss = 0.0018
+
+Iteration 1495, loss = 0.0027
+
+Iteration 1500, loss = 0.0014
+
+Iteration 1505, loss = 0.0020
+
+Iteration 1510, loss = 0.0020
+
+Iteration 1515, loss = 0.0023
+
+Iteration 1520, loss = 0.0032
+
+Iteration 1525, loss = 0.0020
+
+Iteration 1530, loss = 0.0019
+
+Iteration 1535, loss = 0.0027
+
+Iteration 1540, loss = 0.0019
+
+Iteration 1545, loss = 0.0018
+
+Iteration 1550, loss = 0.0025
+
+Iteration 1555, loss = 0.0025
+
+Iteration 1560, loss = 0.0029
+
+Iteration 1565, loss = 0.0023
+
+Iteration 1570, loss = 0.0018
+
+Iteration 1575, loss = 0.0029
+
+Iteration 1580, loss = 0.0042
+
+Iteration 1585, loss = 0.0023
+
+Iteration 1590, loss = 0.0024
+
+Iteration 1595, loss = 0.0028
+
+Iteration 1600, loss = 0.0022
+
+Iteration 1605, loss = 0.0016
+
+Iteration 1610, loss = 0.0016
+
+Iteration 1615, loss = 0.0022
+
+Iteration 1620, loss = 0.0014
+
+Iteration 1625, loss = 0.0011
+
+Iteration 1630, loss = 0.0021
+
+Iteration 1635, loss = 0.0025
+
+Iteration 1640, loss = 0.0024
+
+Iteration 1645, loss = 0.0019
+
+Iteration 1650, loss = 0.0013
+
+Iteration 1655, loss = 0.0016
+
+Iteration 1660, loss = 0.0028
+
+Iteration 1665, loss = 0.0016
+
+Iteration 1670, loss = 0.0013
+
+Iteration 1675, loss = 0.0016
+
+Iteration 1680, loss = 0.0017
+
+Iteration 1685, loss = 0.0019
+
+Iteration 1690, loss = 0.0016
+
+Iteration 1695, loss = 0.0017
+
