@@ -308,7 +308,7 @@ class OscarNet(nn.Module):
             self.conv_17_decompress
 
             
-        ).to(self.device)
+        ).to(device)
         scores = model(x)
         return scores
     

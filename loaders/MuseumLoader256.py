@@ -49,18 +49,14 @@ class MuseumLoader256(Dataset):
         self.transform = transform
 
         # read filenames
-        filenames = glob.glob(osp.join(root, '*.jpg'))
-        
-        
-        #randomly select filenames for more even distribution
-        sample_size = 40
-        #import pdb; pdb.set_trace();
-        file_samples =  random.sample(filenames, sample_size)
-        
-        for fn in file_samples:
+        filenames = glob.glob(osp.join(root, '*.jpeg'))
+        i = 0
+        for fn in filenames:
+            #print('in loop',fn)
             self.filenames.append(fn) # (filename, label) pair
-
- 
+            i +=1
+            if i == 20:
+                break
 
         # if preload dataset into memory
         if preload:
