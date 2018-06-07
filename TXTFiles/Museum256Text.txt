@@ -1,0 +1,160 @@
+1000
+100
+Iteration 0, loss = 0.0337
+
+Iteration 25, loss = 0.0144
+
+Iteration 50, loss = 0.0092
+
+Iteration 75, loss = 0.0106
+
+Iteration 100, loss = 0.0088
+
+Iteration 125, loss = 0.0092
+
+Iteration 150, loss = 0.0091
+
+Iteration 175, loss = 0.0069
+
+Iteration 200, loss = 0.0061
+
+Iteration 225, loss = 0.0057
+
+Iteration 250, loss = 0.0066
+
+Iteration 275, loss = 0.0073
+
+Iteration 300, loss = 0.0066
+
+Iteration 325, loss = 0.0072
+
+Iteration 350, loss = 0.0056
+
+Iteration 375, loss = 0.0060
+
+Iteration 400, loss = 0.0067
+
+Iteration 425, loss = 0.0047
+
+Iteration 450, loss = 0.0072
+
+Iteration 475, loss = 0.0060
+
+Iteration 500, loss = 0.0058
+
+Iteration 525, loss = 0.0061
+
+Iteration 550, loss = 0.0054
+
+Iteration 575, loss = 0.0065
+
+Iteration 600, loss = 0.0061
+
+Iteration 625, loss = 0.0059
+
+Iteration 650, loss = 0.0055
+
+Iteration 675, loss = 0.0050
+
+Iteration 700, loss = 0.0068
+
+Iteration 725, loss = 0.0049
+
+Iteration 750, loss = 0.0051
+
+Iteration 775, loss = 0.0053
+
+Iteration 800, loss = 0.0046
+
+Iteration 825, loss = 0.0073
+
+Iteration 850, loss = 0.0058
+
+Iteration 875, loss = 0.0074
+
+Iteration 900, loss = 0.0044
+
+Iteration 925, loss = 0.0056
+
+Iteration 950, loss = 0.0058
+
+Iteration 975, loss = 0.0053
+
+Iteration 1000, loss = 0.0047
+
+Iteration 1025, loss = 0.0073
+
+Iteration 1050, loss = 0.0066
+
+Iteration 1075, loss = 0.0056
+
+Iteration 1100, loss = 0.0055
+
+Iteration 1125, loss = 0.0064
+
+Iteration 1150, loss = 0.0057
+
+Iteration 1175, loss = 0.0054
+
+Iteration 1200, loss = 0.0056
+
+Iteration 1225, loss = 0.0049
+
+Iteration 1250, loss = 0.0057
+
+Iteration 1275, loss = 0.0060
+
+Iteration 1300, loss = 0.0052
+
+Iteration 1325, loss = 0.0056
+
+Iteration 1350, loss = 0.0058
+
+Iteration 1375, loss = 0.0066
+
+Iteration 1400, loss = 0.0039
+
+Iteration 1425, loss = 0.0052
+
+Iteration 1450, loss = 0.0041
+
+Iteration 1475, loss = 0.0041
+
+Iteration 1500, loss = 0.0043
+
+Iteration 1525, loss = 0.0064
+
+Iteration 1550, loss = 0.0055
+
+Iteration 1575, loss = 0.0041
+
+Iteration 1600, loss = 0.0046
+
+Iteration 1625, loss = 0.0041
+
+Iteration 1650, loss = 0.0033
+
+Iteration 1675, loss = 0.0061
+
+Iteration 1700, loss = 0.0035
+
+Iteration 1725, loss = 0.0059
+
+Iteration 1750, loss = 0.0044
+
+Iteration 1775, loss = 0.0064
+
+Iteration 1800, loss = 0.0057
+
+Iteration 1825, loss = 0.0057
+
+Iteration 1850, loss = 0.0062
+
+Iteration 1875, loss = 0.0061
+
+Iteration 1900, loss = 0.0047
+
+Iteration 1925, loss = 0.0044
+
+Iteration 1950, loss = 0.0057
+

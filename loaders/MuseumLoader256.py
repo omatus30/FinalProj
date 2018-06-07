@@ -27,12 +27,13 @@ import numpy as np
 
 
 
-class MuseumLoader256(Dataset):
+class MuseumLoader(Dataset):
     """
     A customized data loader for MNIST.
     """
     def __init__(self,
                  root,
+                 sample_size = 500,
                  transform=None,
                  preload=False):
         """ Intialize the MNIST dataset
@@ -47,16 +48,20 @@ class MuseumLoader256(Dataset):
         self.filenames = []
         self.root = root
         self.transform = transform
+        self.sample_size = 500
 
         # read filenames
-        filenames = glob.glob(osp.join(root, '*.jpeg'))
-        i = 0
-        for fn in filenames:
-            #print('in loop',fn)
+        filenames = glob.glob(osp.join(root, '*.jpg'))
+        
+        
+        #randomly select filenames for more even distribution
+        #import pdb; pdb.set_trace();
+        file_samples =  random.sample(filenames, sample_size)
+        
+        for fn in file_samples:
             self.filenames.append(fn) # (filename, label) pair
-            i +=1
-            if i == 20:
-                break
+
+ 
 
         # if preload dataset into memory
         if preload:
